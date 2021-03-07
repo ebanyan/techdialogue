@@ -45,9 +45,9 @@ class Wrapper extends React.Component {
               lineHeight: scale(2 / 5).lineHeight,
             }}
           >
-              <NoStyleLink to="/about/">about</NoStyleLink>{"   "}
-              <NoStyleLink to="/contact/">contact</NoStyleLink> {"   "}
-              <NoStyleLink to="/blog/">blog</NoStyleLink>
+              <NoStyleLink to="/about/">about</NoStyleLink>{"        "}
+              <NoStyleLink to="/contact/">contact</NoStyleLink> {"        "}
+              <NoStyleLink to="/episodes/">episodes</NoStyleLink>
           </div>
         </div>
         <div

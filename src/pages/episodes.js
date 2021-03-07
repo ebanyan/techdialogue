@@ -34,9 +34,8 @@ class BlogIndexRoute extends React.Component {
               height: rhythm(2),
             }}
           />
-          Blog written by{" "}
-          <strong>{this.props.data.site.siteMetadata.author}</strong> who lives in Austin
-          and working on a podcast for technical recruitment and mentoring.
+          recorded podcast episodes facilitated by{" "}
+          <strong>{this.props.data.site.siteMetadata.author}</strong> who lives in Austin.
         </p>
         <p />
         <ul

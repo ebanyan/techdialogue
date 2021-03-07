@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../layouts/index.js"
 import typography from "../utils/typography"
-import profilePic from "../images/kyle-round-small-pantheon.jpg"
+import profilePic from "../images/satish_profile.jpg"
 
 const rhythm = typography.rhythm
 
@@ -35,12 +35,8 @@ class BlogIndexRoute extends React.Component {
             }}
           />
           Blog written by{" "}
-          <strong>{this.props.data.site.siteMetadata.author}</strong> who lives
-          and works in San Francisco building useful things. I also{" "}
-          <a href="https://www.gatsbyjs.org/contributors/kyle-mathews/">
-            blog at gatsbyjs.org
-          </a>{" "}
-          for my work on Gatsby
+          <strong>{this.props.data.site.siteMetadata.author}</strong> who lives in Austin
+          and working on a podcast for technical recruitment and mentoring.
         </p>
         <p />
         <ul

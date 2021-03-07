@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 import typography from "../utils/typography"
 import ReadNext from "../components/ReadNext"
 import Layout from "../layouts/index.js"
-import profilePic from "../images/kyle-round-small-pantheon.jpg"
+import profilePic from "../images/satish_profile.jpg"
 
 const { rhythm, scale } = typography
 
@@ -85,7 +85,7 @@ class BlogPostRoute extends React.Component {
           <strong>{this.props.data.site.siteMetadata.author}</strong> lives and
           works in {this.props.data.site.siteMetadata.homeCity} building useful
           things.{" "}
-          <a href="https://twitter.com/kylemathews">
+          <a href="https://twitter.com/TechDialogue1">
             You should follow him on Twitter
           </a>
         </p>

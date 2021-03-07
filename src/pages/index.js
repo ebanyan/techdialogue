@@ -51,7 +51,7 @@ export default function Index() {
           right: 0,
           justifyContent: `center`,
           alignItems: `center`,
-          background: `#c5484d`,
+          background: `#48a8c5`,
         }}
       >
         <h1
@@ -69,9 +69,8 @@ export default function Index() {
             },
           }}
         >
-          <span css={{ fontWeight: 400 }}>Welcome to the</span> Personal
-          Internet Domicile{` `}
-          <span css={{ fontWeight: 400 }}>of Kyle Mathews</span>
+          <span css={{ fontWeight: 400 }}>Welcome to the</span> Virtual hideout{` `}
+          <span css={{ fontWeight: 400 }}>of Satish Krishnaraj</span>
         </h1>
       </div>
       <div
@@ -91,7 +90,7 @@ export default function Index() {
           },
         }}
       >
-        <NoStyleLink to="/">bricolage</NoStyleLink>
+        <NoStyleLink to="/">TechDialogue</NoStyleLink>
       </div>
       <div
         css={{
@@ -104,8 +103,11 @@ export default function Index() {
           lineHeight: scale(2 / 5).lineHeight,
         }}
       >
-        <NoStyleLink to="/blog/">blog</NoStyleLink>,{" "}
-        <NoStyleLink to="/about/">about</NoStyleLink>
+          <NoStyleLink to="/about/">about</NoStyleLink>{"   "}
+          <NoStyleLink to="/contact/">contact</NoStyleLink> {"   "}
+          <NoStyleLink to="/blog/">blog</NoStyleLink>
+
+
       </div>
     </div>
   )

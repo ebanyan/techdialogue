@@ -11,16 +11,7 @@ export default function Contact({ location }) {
             <div>
                 <ArenguForm
                     id="161521760729681752"
-                    hiddenFields={[
-                        {
-                            key: 'userId',
-                            value: '12345',
-                        },
-                        {
-                            key: 'source',
-                            value: 'anyString',
-                        },
-                    ]}
+
                 />
             </div>
         </Layout>

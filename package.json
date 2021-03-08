@@ -7,9 +7,11 @@
     "format": "prettier --write '**/*.js'"
   },
   "dependencies": {
+    "-": "^0.0.1",
     "@emotion/core": "^10.0.7",
     "@emotion/styled": "^10.0.7",
     "gatsby": "^3.0.0",
+    "gatsby-plugin-arengu-forms": "^1.0.1",
     "gatsby-plugin-emotion": "^4.0.4",
     "gatsby-plugin-gatsby-cloud": "^2.0.0",
     "gatsby-plugin-google-analytics": "^3.0.0",

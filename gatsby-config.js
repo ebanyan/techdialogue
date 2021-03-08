@@ -7,6 +7,7 @@ module.exports = {
     homeCity: "Austin",
   },
   plugins: [
+    `gatsby-plugin-arengu-forms`,
     `gatsby-plugin-gatsby-cloud`,
     {
       resolve: `gatsby-source-filesystem`,

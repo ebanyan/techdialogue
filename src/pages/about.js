@@ -14,8 +14,8 @@ export default function About({ location }) {
           <h2> About Tech Dialogue:</h2>
           <h3> Summary </h3>
           **Tech Dialogue is** a podcast wherein experienced technology
-          professionals conduct interviews, give feedback to candidates and share
-          their expertise and experience.
+          professionals conduct interviews, give feedback to candidates, share
+          their expertise & experience, as well as source talent.
           <br/>
           <br/>
            <h4>Mission</h4>

@@ -51,10 +51,10 @@ export default function Index() {
           right: 0,
           justifyContent: `center`,
           alignItems: `center`,
-          background: `#c5484d`,
+          background: `#48a8c5`,
         }}
       >
-        <h1
+        <h2
           css={{
             width: `80%`,
             color: whitish,
@@ -69,10 +69,9 @@ export default function Index() {
             },
           }}
         >
-          <span css={{ fontWeight: 400 }}>Welcome to the</span> Personal
-          Internet Domicile{` `}
-          <span css={{ fontWeight: 400 }}>of Kyle Mathews</span>
-        </h1>
+          <span css={{ fontWeight: 300 }}>Welcome to the</span> podcast platform{` `}
+          <span css={{ fontWeight: 300 }}>for technology professionals.</span>
+        </h2>
       </div>
       <div
         css={{
@@ -91,7 +90,7 @@ export default function Index() {
           },
         }}
       >
-        <NoStyleLink to="/">bricolage</NoStyleLink>
+        <NoStyleLink to="/">TechDialogue</NoStyleLink>
       </div>
       <div
         css={{
@@ -104,8 +103,11 @@ export default function Index() {
           lineHeight: scale(2 / 5).lineHeight,
         }}
       >
-        <NoStyleLink to="/blog/">blog</NoStyleLink>,{" "}
-        <NoStyleLink to="/about/">about</NoStyleLink>
+          <NoStyleLink to="/about/">about</NoStyleLink>{"        "}
+          <NoStyleLink to="/contact/">contact</NoStyleLink> {"        "}
+          <NoStyleLink to="/episodes/">episodes</NoStyleLink>
+
+
       </div>
     </div>
   )

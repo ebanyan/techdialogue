@@ -8,3 +8,5 @@ assets/sass/bower_components/
 public/
 .intermediate-representation/
 .cache/
+.idea/
+/.idea/

@@ -1,10 +1,10 @@
-const redish = `#c5484d`
+const redish = `#48c5c1`
 
 module.exports = {
   siteMetadata: {
-    title: "Bricolage",
-    author: "Kyle Mathews",
-    homeCity: "San Francisco",
+    title: "TechDialogue",
+    author: "Satish Krishnaraj",
+    homeCity: "Austin",
   },
   plugins: [
     `gatsby-plugin-gatsby-cloud`,
@@ -49,14 +49,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `UA-774017-3`,
+        trackingId: `UA-134761933-1`,
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Bricolage",
-        short_name: "Bricolage",
+        name: "TechDialogue",
+        short_name: "TechDialogue",
         icon: "static/logo.png",
         start_url: "/",
         background_color: redish,

@@ -3,47 +3,65 @@ import { Link } from "gatsby"
 
 import Layout from "../layouts/index.js"
 
+const NoStyleLink = (props) => (
+    <Link css={{ color: `#48a8c5`, textDecoration: `none` }} {...props} />
+)
+
 export default function About({ location }) {
   return (
     <Layout location={location}>
-      <h1>Welcome Internet</h1>
       <p>
-        Welcome to my humble abode on the internet where weary travelers may
-        come and rest for a season.
+          <h2> About Tech Dialogue:</h2>
+          <h3> Summary </h3>
+          **Tech Dialogue is** a podcast wherein experienced technology
+          professionals conduct interviews, give feedback to candidates and share
+          their expertise and experience.
+          <br/>
+          <br/>
+           <h4>Mission</h4>
+          **Tech Dialogue mission is** to help companies attract the right
+          talent. A platform to enlighten about the company, culture, and the position being
+          filled in great detail.
+          <br/>
+          <br/>
+          **Tech Dialogue mission is** to help experienced professionals
+          mentor and be an influencer in the long run.
+          <br/>
+          <br/>
+          **Tech Dialogue mission is** to expose candidates to
+          experienced professionals whose interviewing styles are so powerful that
+          just hearing them regularly could change ones outlook.
+          <br/>
+          <br/>
+          **Tech Dialogue mission is** to show candidates a way to "learn from
+          others' experiences". The best way to advance in your profession is to
+          learn from a mix of smart people who are willing to share their
+          expertise and experiences.
+          <br/>
+          <br/>
+          **Tech Dialogue mission is** to help candidates build the network even if
+          one is just starting their profession.
+          <br/>
+          <br/>
+          **Tech Dialogue mission is** to help candidates understand various roles,
+          responsibilities, requirements and what companies are looking for in a
+          candidate during several dialogues.
+          <br/>
+          <br/>
+          **Tech Dialogue mission is** to make the candidates aware that it is not just
+          technology but much more - soft skills, communication skills,
+          fostering relationships, and expanding the network.
+          <br/>
+          <br/>
+          **Tech Dialogue mission is** too big for me to achieve alone. If
+          what I am describing appeals to you, reach out to me and we will explore
+          successful career paths.
+          <br/>
+          <br/>
+          If you believe in the mission, I request you to submit your details in
+          the           <NoStyleLink to="/contact/">contact form </NoStyleLink> {"   "}
       </p>
-      <p>
-        I'm the creator of the open source project{" "}
-        <a href="https://www.gatsbyjs.org">Gatsby</a> and co-founder and CEO of{" "}
-        <a href="https://gatsbyjs.com">Gatsby Inc.</a> A company my co-founder{" "}
-        <a href="https://twitter.com/calcsam">Sam Bhagwat</a> and I started to
-        drive the Gatsby vision.
-      </p>
-      <p>
-        I've lived in the bay area since college — I'm currently residing in
-        Berkeley with my lovely wife{" "}
-        <a href="https://twitter.com/shannonb_ux">Shannon</a>.
-      </p>
-      <p>
-        I tried founding two startups before Gatsby. I've done a fair bit of
-        interesting contracting and consulting. My only institutional work of
-        note is a few years I spent early on at{" "}
-        <Link to="/new-beginnings/">
-          Pantheon leading the frontend product work.
-        </Link>
-      </p>
-      <p>
-        I grew up in a{" "}
-        <a href="https://www.cityoftoledo.org/">
-          little town on the Oregon coast with lots of trees
-        </a>
-        . After high school, I served a two year mission in the Philippines for{" "}
-        <a href="https://lds.org">
-          The Church of Jesus Christ of Latter-Day Saints.
-        </a>
-        Then I attended <a href="https://byu.edu">BYU</a> and graduated with a
-        degree in Information Systems.
-      </p>
-      <p>Life is good.</p>
+
     </Layout>
   )
 }

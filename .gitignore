@@ -10,3 +10,6 @@ public/
 .cache/
 .idea/
 /.idea/
+package-lock.json
+yarn.lock
+

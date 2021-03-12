@@ -1,6 +1,6 @@
-blog
+Tech Dialogue podcast
 ====
 
-my blog!
+my blog and podcast!
 
-Visit the actual site at http://bricolage.io
+Visit the actual site at http://techdialogue.org

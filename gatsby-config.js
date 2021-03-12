@@ -2,11 +2,13 @@ const redish = `#48c5c1`
 
 module.exports = {
   siteMetadata: {
+    siteUrl: `https://www.techdialogue.org`,
     title: "TechDialogue",
     author: "Satish Krishnaraj",
     homeCity: "Austin",
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-arengu-forms`,
     `gatsby-plugin-gatsby-cloud`,
     {

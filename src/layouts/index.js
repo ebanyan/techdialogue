@@ -47,6 +47,7 @@ class Wrapper extends React.Component {
           >
               <NoStyleLink to="/about/">about</NoStyleLink>{"        "}
               <NoStyleLink to="/contact/">contact</NoStyleLink> {"        "}
+              <NoStyleLink to="/schedule/">schedule</NoStyleLink> {"        "}
               <NoStyleLink to="/episodes/">episodes</NoStyleLink>
           </div>
         </div>

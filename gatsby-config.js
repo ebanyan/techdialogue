@@ -8,7 +8,6 @@ module.exports = {
     homeCity: "Austin",
   },
   plugins: [
-    `gatsby-plugin-sitemap`,
     `gatsby-plugin-arengu-forms`,
     `gatsby-plugin-gatsby-cloud`,
     {

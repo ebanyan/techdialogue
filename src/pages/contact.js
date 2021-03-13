@@ -15,11 +15,7 @@ export default function Contact({ location }) {
 
 
             <div>
-                <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-                    <input type="text" name="name" />
-                    <input type="email" name="email" />
-                    <textarea name="message"></textarea>
-                </form>
+                <ArenguForm id="161521760729681752" />
             </div>
         </Layout>
     )

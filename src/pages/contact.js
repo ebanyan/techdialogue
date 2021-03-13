@@ -9,8 +9,8 @@ export default function Contact({ location }) {
     return (
         <Layout location={location}>
             <p>
-                <h2> About Tech Dialogue:</h2>
-                <h3> Summary </h3>
+                About Tech Dialogue:
+                Summary
             </p>
 
             <div>

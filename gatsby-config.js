@@ -3,7 +3,7 @@ const redish = `#48c5c1`
 module.exports = {
   siteMetadata: {
     siteUrl: `https://www.techdialogue.org`,
-    title: "TechDialogue",
+    title: "TechDialogue2",
     author: "Satish Krishnaraj",
     homeCity: "Austin",
   },

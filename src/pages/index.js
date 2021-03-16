@@ -104,8 +104,8 @@ export default function Index() {
         }}
       >
           <NoStyleLink to="/about/">about</NoStyleLink>{"        "}
-          <NoStyleLink to="/contact/">contact</NoStyleLink> {"        "}
           <NoStyleLink to="/schedule/">schedule</NoStyleLink> {"        "}
+          <NoStyleLink to="/contact/">contact</NoStyleLink> {"        "}
           <NoStyleLink to="/episodes/">episodes</NoStyleLink>
 
 

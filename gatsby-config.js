@@ -65,7 +65,6 @@ module.exports = {
         background_color: redish,
         theme_color: redish,
         display: "minimal-ui",
-        crossOrigin: `use-credentials`
       },
     },
     `gatsby-plugin-offline`,

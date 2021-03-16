@@ -1,7 +1,7 @@
 {
   "name": "techdialogue",
   "description": "'My blog'",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "author": "Satish Krishnaraj <satishkn4@gmail.com>",
   "scripts": {
     "format": "prettier --write '**/*.js'"
@@ -9,7 +9,7 @@
   "dependencies": {
     "@emotion/core": "^10.0.7",
     "@emotion/styled": "^10.0.7",
-    "gatsby": "3.0.0",
+    "gatsby": "^3.0.0",
     "gatsby-plugin-arengu-forms": "^1.0.1",
     "gatsby-plugin-emotion": "^4.0.4",
     "gatsby-plugin-gatsby-cloud": "^2.0.0",
@@ -18,6 +18,7 @@
     "gatsby-plugin-offline": "^4.0.0",
     "gatsby-plugin-react-helmet": "^4.0.0",
     "gatsby-plugin-sharp": "^3.0.0",
+    "gatsby-plugin-sitemap": "^3.0.0",
     "gatsby-plugin-typography": "^3.0.0",
     "gatsby-remark-copy-linked-files": "^3.0.0",
     "gatsby-remark-images": "^4.0.0",
@@ -31,6 +32,7 @@
     "prettier": "^2.2.1",
     "prismjs": "^1.15.0",
     "react": "^17.0.0",
+    "react-calendly": "^1.3.1",
     "react-dom": "^17.0.0",
     "react-helmet": "^6.1.0",
     "react-typography": "^1.0.0-alpha.0",

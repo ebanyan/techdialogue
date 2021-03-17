@@ -1,7 +1,7 @@
 {
   "name": "techdialogue",
   "description": "'My blog'",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Satish Krishnaraj <satishkn4@gmail.com>",
   "scripts": {
     "format": "prettier --write '**/*.js'"

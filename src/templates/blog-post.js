@@ -83,11 +83,15 @@ class BlogPostRoute extends React.Component {
             }}
           />
           <strong>{this.props.data.site.siteMetadata.author}</strong> lives and
-          works in {this.props.data.site.siteMetadata.homeCity} building useful
-          things.{" "}
-          <a href="https://twitter.com/TechDialogue1">
-            You should follow him on Twitter
+          works in {this.props.data.site.siteMetadata.homeCity} working on interesting initiatives.{" "}
+          <a href="https://techdialogue.org/contact">
+            Contact him
           </a>
+            {" "} or if you prefer to discuss first.... please  {" "}
+            <a href="https://techdialogue.org/schedule">
+                Schedule
+            </a>
+
         </p>
       </Layout>
     )

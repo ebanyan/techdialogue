@@ -103,10 +103,10 @@ export default function Index() {
           lineHeight: scale(2 / 5).lineHeight,
         }}
       >
-          <NoStyleLink to="/about/">about</NoStyleLink>{"        "}
-          <NoStyleLink to="/schedule/">schedule</NoStyleLink> {"        "}
-          <NoStyleLink to="/contact/">contact</NoStyleLink> {"        "}
-          <NoStyleLink to="/episodes/">episodes</NoStyleLink>
+          <NoStyleLink to="/about/">About</NoStyleLink>{"        "}
+          <NoStyleLink to="/schedule/">Schedule</NoStyleLink> {"        "}
+          <NoStyleLink to="/contact/">Contact</NoStyleLink> {"        "}
+          <NoStyleLink to="/episodes/">Episodes</NoStyleLink>
 
 
       </div>
